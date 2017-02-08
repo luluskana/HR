@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE tiles-definitions PUBLIC
+        "-//Apache Software Foundation//DTD Tiles Configuration 3.0//EN"
+        "http://tiles.apache.org/dtds/tiles-config_3_0.dtd">
+<tiles-definitions>
+    <definition name="APPUSER/create" extends="layout.bootstrap">
+        <put-attribute name="body" value="/WEB-INF/views/APPUSER/create.jsp" />
+    </definition>
+    <definition name="APPUSER/list" extends="layout.bootstrap">
+        <put-attribute name="body" value="/WEB-INF/views/APPUSER/list.jsp" />
+    </definition>
+    <definition name="APPUSER/update" extends="layout.bootstrap">
+        <put-attribute name="body" value="/WEB-INF/views/APPUSER/update.jsp" />
+    </definition>
+    <definition name="APPUSER/updateProfile" extends="layout.bootstrap">
+        <put-attribute name="body" value="/WEB-INF/views/APPUSER/updateProfile.jsp" />
+    </definition>
+</tiles-definitions>
