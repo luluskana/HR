@@ -22,6 +22,14 @@
                         </ul>
                     </li>
                 </c:if>
+                <c:if test="${not empty userLogin}">
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">Template <span class="caret"></span></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="${home}ot?createTemplate">Create Template</a></li>
+                        </ul>
+                    </li>
+                </c:if>
             </ul>
             <ul class="nav navbar-nav navbar-right">
                 <li class="dropdown">
